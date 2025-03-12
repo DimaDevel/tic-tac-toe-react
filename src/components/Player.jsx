@@ -7,7 +7,7 @@ export default function Player({ initialName, symbol }) {
     setIsEditing(isEditing => !isEditing );
   }
   function handelChange(event) {
-    setPlayerName(event.target.value);
+    setPlayerName(event.target.value);n
   }
   return (
     <li>
